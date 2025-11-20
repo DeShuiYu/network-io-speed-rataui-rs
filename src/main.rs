@@ -101,7 +101,7 @@ impl App {
         let datasets = vec![
             Dataset::default()
                 .name("DSpeed")
-                .marker(symbols::Marker::Dot)
+                .marker(symbols::Marker::Braille)
                 .graph_type(ratatui::widgets::GraphType::Line)
                 .style(Style::default().fg(Color::Cyan))
                 .data(&self.data1),
