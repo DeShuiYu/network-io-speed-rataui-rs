@@ -1,0 +1,9 @@
+[package]
+name = "untitled"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ratatui = { version = "0.28.0", features = ["all-widgets"] }
+color-eyre = "0.6.5"
+sysinfo = "0.37"
