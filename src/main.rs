@@ -117,14 +117,14 @@ impl App {
             .block(Block::bordered())
             .x_axis(
                 Axis::default()
-                    .title("X Axis")
+                    .title("time")
                     .style(Style::default().fg(Color::Gray))
                     .labels(x_labels)
                     .bounds(self.window),
             )
             .y_axis(
                 Axis::default()
-                    .title("Y Axis")
+                    .title("Speed")
                     .style(Style::default().fg(Color::Gray))
                     .labels(["0M/s".bold(), "5M/s".into(), "10M/s".bold()])
                     .bounds([0.0, 10.0]),
